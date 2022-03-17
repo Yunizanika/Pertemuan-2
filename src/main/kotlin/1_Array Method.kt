@@ -17,7 +17,7 @@ fun main() {
     }
     print('\n')
 
-    //reverse() and reversedArray()
+    //reverse() membalikkan elemen array and reversedArray()
     val simpsonsC: Array<String> = arrayOf("Homer", "Marge", "Bart", "Lisa", "Meggie")
     simpsonsC.sort()
     simpsonsC.reverse()
@@ -39,9 +39,9 @@ fun main() {
     println("simpsons size: " + simpsonsE.size)
     if(!simpsonsE.isEmpty())
         println("Array tidak kosong!")
-    println("Min = " +simpsonsE.minOrNull())
-    println("Max = "+ simpsonsE.maxOrNull())
-    println("First = " + simpsonsE.first())
-    println("Last = " + simpsonsE.last())
+    println("Min = " +simpsonsE.minOrNull()) // nilai minimum
+    println("Max = "+ simpsonsE.maxOrNull()) // nilai maximal
+    println("First = " + simpsonsE.first()) // membalikkan elemen utama
+    println("Last = " + simpsonsE.last()) // membalikkan elemen terakhir
     println(simpsonsE.contains("Marge"))
 }
