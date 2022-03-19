@@ -13,4 +13,6 @@ fun returnLoop(){
         print("$x ")
     }
     print("Tidak akan pernah dieksekusi")
+    //return berguna untuk keluar dari fungsi dan mengembalikan suatu nilai kepada
+    //pemanggil fungsi.
 }
