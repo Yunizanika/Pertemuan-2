@@ -1,4 +1,7 @@
 fun main() {
+    //Percabangan atau control Flow adalah sebuah istilah untuk menyebut alur program yang bercabang.
+
+
     //Conditions
     if (15 > 5)
         println("True")
