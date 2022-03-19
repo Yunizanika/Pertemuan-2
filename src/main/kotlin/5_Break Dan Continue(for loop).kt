@@ -1,6 +1,6 @@
 fun main() {
     //Continue -> Continue digunakan saat kita ingin melewati
-    //Break -> berhenti
+    //Break -> untuk menghentikan proses perulangan ke penutup terdekat dalam suatu blok program.
     println("Example of Break and Continue Label")
     myLabel@ for(x in 1..10) { // appling the custom label
         if(x == 5) {
