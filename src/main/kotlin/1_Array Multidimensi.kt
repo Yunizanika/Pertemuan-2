@@ -1,5 +1,5 @@
 fun main() {
-    // array yang lebih dari 2 dimensi
+    // array yang lebih dari 2D
     var cinemas = arrayOf<Array<Array<Int>>>()
     for (i in 0..2) {
         var cinema = arrayOf<Array<Int>>()
